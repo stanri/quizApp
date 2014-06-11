@@ -1,0 +1,17 @@
+/* CSS declarations go here */
+#classroomContainer{
+  width: 300px;
+  border: 1px solid black;
+}
+
+#classroomTitle{
+  background-color: lightblue;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+#classroomHistory{
+  height: 200px;
+  overflow-y: auto;
+  margin: 5px;
+}

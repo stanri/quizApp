@@ -1,0 +1,12 @@
+<template name="teacherClient">
+  <div id='teacherContainer'>
+    <div id='teacherTitle'>
+      MASTERMIND
+    </div>
+    <div id='ansHistory'>
+      {{#each lines}}
+        <b>{{this.username}}</b>: {{this.questionContent}} <button class='flagMessage' style="float: right;">Approve</button><br><br>
+      {{/each}}
+    </div>
+  </div>
+</template>

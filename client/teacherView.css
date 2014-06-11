@@ -1,0 +1,22 @@
+/* CSS declarations go here */
+#teacherContainer{
+  width: 600px;
+  border: 1px solid black;
+}
+
+#teacherTitle{
+  background-color: lightblue;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+#flagMessage{
+  width: 60px;
+  height: 20px;
+}
+
+#ansHistory{
+  height: 400px;
+  overflow-y: auto;
+  margin: 5px;
+}

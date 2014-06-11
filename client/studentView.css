@@ -1,0 +1,20 @@
+/* CSS declarations go here */
+#studentContainer{
+  width: 300px;
+  border: 1px solid black;
+}
+
+#question{
+  background-color: lightblue;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+#sendAnswer{
+  width: 50px;
+  height: 30px;
+}
+
+#userAnswerTextarea{
+  width: 220px;
+}

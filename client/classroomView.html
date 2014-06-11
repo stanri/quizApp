@@ -1,0 +1,13 @@
+<template name="classroomClient">
+  <div id='classroomContainer'>
+    <div id='classroomTitle'>
+      What is your favorite color?
+    </div>
+    <div id='classroomHistory'>
+      {{#each lines}}
+        <b>{{this.username}}</b>: {{this.questionContent}}<br>
+      {{/each}}
+    </div>
+  </div>
+</template>
+
